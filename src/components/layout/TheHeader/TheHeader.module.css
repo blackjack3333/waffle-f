@@ -1,0 +1,14 @@
+.header {
+  @apply text-N7 py-5 px-7 flex w-full bg-N0 shadow-sm;
+}
+.logo {
+  @apply w-12 h-12 fill-current
+  transition-colors
+  hover:text-red-400;
+}
+.input {
+  @apply w-full;
+}
+.arrow {
+  @apply w-6 text-N7;
+}

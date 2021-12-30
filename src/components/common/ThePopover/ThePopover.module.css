@@ -1,0 +1,12 @@
+.dots {
+  @apply flex w-6 h-6 cursor-pointer items-center;
+}
+.dot {
+  @apply bg-N7 rounded-full;
+  width: 4px;
+  height: 4px;
+  margin: 0 1px;
+}
+.isAvatar {
+  @apply w-10 h-10;
+}

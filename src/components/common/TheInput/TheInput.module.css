@@ -1,0 +1,19 @@
+.inputWrapper {
+  @apply w-full;
+}
+.input {
+  @apply bg-N1
+    outline-none
+    h-10
+    px-4
+    flex
+    align-middle
+    w-full
+    rounded-r-10
+    placeholder-N4
+    text-sm
+    border
+    transition-colors
+    hover:border-blue-300
+    focus:border-B1;
+}

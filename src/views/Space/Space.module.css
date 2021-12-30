@@ -1,0 +1,7 @@
+.wrapper {
+  @apply flex justify-center;
+}
+.list {
+  @apply bg-N0 px-5 rounded-lg divide-y divide-N3 flex flex-col w-full;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.07);
+}

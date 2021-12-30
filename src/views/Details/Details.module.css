@@ -1,0 +1,5 @@
+.details {
+  @apply w-full mx-auto pb-40;
+  max-width: 779px;
+  min-height: 100%;
+}

@@ -1,0 +1,6 @@
+.button {
+  @apply flex text-N7 font-semibold transition-colors text-sm hover:text-N5;
+}
+.icon {
+  @apply w-4 mr-2;
+}

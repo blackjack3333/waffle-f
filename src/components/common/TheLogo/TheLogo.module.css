@@ -1,0 +1,9 @@
+.match {
+  @apply text-N7 font-semibold;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.logoWrapper {
+  width: 51.5px;
+  height: 48px;
+}

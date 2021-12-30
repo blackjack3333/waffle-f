@@ -1,0 +1,61 @@
+.dummy {
+  @apply bg-BEIGE rounded-xl mr-20;
+  width: 220px;
+  min-width: 220px;
+}
+.player {
+  @apply flex bg-BEIGE z-10 px-10 fixed bottom-0 left-0 right-0;
+}
+:global(.rhap_container) {
+  @apply bg-BEIGE shadow-none;
+  padding: 12px 0px 8px;
+}
+:global(.rhap_main) {
+  @apply mx-auto w-full max-w-3xl;
+}
+:global(.rhap_stacked .rhap_controls-section) {
+  @apply my-0;
+}
+:global(.rhap_progress-section) {
+  @apply order-2;
+}
+:global(.rhap_time) {
+  @apply text-N7;
+  font-size: 1rem;
+  line-height: 1.75;
+}
+:global(.rhap_progress-container) {
+  @apply mx-6 h-2.5;
+}
+:global(.rhap_progress-indicator) {
+  @apply hidden;
+}
+:global(.rhap_progress-bar) {
+  height: 9px;
+}
+:global(.rhap_progress-filled) {
+  @apply bg-DUSTY_ORANGE rounded-r-9 h-2.5;
+}
+:global(.rhap_download-progress) {
+  @apply bg-LIGHT_TAN rounded-r-9;
+}
+:global(.rhap_volume-button) {
+  @apply text-N7;
+}
+:global(.rhap_volume-bar),
+:global(.rhap_volume-indicator) {
+  @apply bg-DUSTY_ORANGE shadow-none;
+}
+:global(.rhap_skip-button) {
+  @apply fill-current text-N7 w-6 h-6;
+}
+:global(.rhap_rewind-button),
+:global(.rhap_forward-button) {
+  @apply fill-current text-N7 mx-5 relative;
+  width: 21px;
+  height: 31px;
+  top: 4px;
+}
+:global(.rhap_play-pause-button) {
+  @apply fill-current text-N7 w-16 h-16 stroke-current;
+}

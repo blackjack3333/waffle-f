@@ -1,0 +1,11 @@
+.sidebar {
+  @apply flex flex-col gap-3 items-center;
+  min-width: 220px;
+}
+.item {
+  padding: 10px 0;
+  @apply flex items-center gap-3 px-3 bg-N2 rounded-md text-sm text-N7 font-semibold w-full;
+}
+.icon {
+  @apply text-current w-4;
+}

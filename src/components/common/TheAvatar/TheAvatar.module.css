@@ -1,0 +1,7 @@
+.avatar {
+  @apply rounded-full overflow-hidden text-N7 relative;
+}
+.popoverWrapper {
+  @apply absolute flex z-10 top-0 opacity-0 w-full;
+  height: 42px;
+}

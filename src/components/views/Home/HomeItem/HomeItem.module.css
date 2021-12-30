@@ -1,0 +1,21 @@
+.item {
+  @apply flex flex-1 items-center py-5 relative;
+}
+.number {
+  @apply text-sm text-N6 mr-6;
+}
+.id {
+  @apply text-sm text-N6 mr-10;
+}
+.wrapperNames {
+  @apply flex-1 flex flex-col gap-2 mr-11 w-0;
+}
+.wrapperMeta {
+  @apply flex flex-col items-end gap-2 mr-7;
+}
+.name {
+  @apply text-sm text-N7 font-semibold overflow-ellipsis whitespace-nowrap overflow-hidden;
+}
+.resourse {
+  @apply text-xs text-N5 font-semibold;
+}

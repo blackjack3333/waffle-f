@@ -1,0 +1,26 @@
+.main {
+  @apply flex flex-col rounded-lg bg-white;
+  padding: 25px 58px 29px 31px;
+  border: 1px solid transparent;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.07);
+}
+.mainTitle {
+  @apply mb-5 text-xl font-bold;
+}
+.wordDustyOrange {
+  @apply text-DUSTY_ORANGE;
+}
+.listItem {
+  @apply flex flex-row;
+}
+.time {
+  @apply text-N5;
+  margin-right: 23px;
+  font-size: 1rem;
+  line-height: 2.19;
+}
+.value {
+  @apply text-N7;
+  font-size: 1rem;
+  line-height: 2.19;
+}

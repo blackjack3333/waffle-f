@@ -1,0 +1,9 @@
+.footer {
+    @apply py-7 px-8 flex gap-8;
+}
+.privacy {
+    @apply text-N7 text-sm font-semibold;
+}
+.text {
+    @apply text-N7 text-sm;
+}

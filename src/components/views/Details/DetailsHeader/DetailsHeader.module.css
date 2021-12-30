@@ -1,0 +1,20 @@
+.header {
+  @apply flex flex-1 w-full justify-between items-center mb-5;
+  min-height: 40px;
+}
+.id {
+  @apply text-sm text-N6 mr-10;
+}
+.infoWrapper {
+  @apply flex items-center;
+}
+.resourse {
+  @apply text-xs text-N5 font-semibold mr-6;
+}
+.shareButton {
+  @apply mr-3 text-N6;
+}
+.headerPopover {
+  @apply relative;
+  top: 2px;
+}
